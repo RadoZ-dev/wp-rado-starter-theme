@@ -1,0 +1,1 @@
+# wp-rado-starter-theme
