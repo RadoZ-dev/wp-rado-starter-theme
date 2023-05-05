@@ -1,0 +1,20 @@
+{
+    "name": "rado/rado-starter-theme",
+    "description": "Rado starter theme",
+    "authors": [
+      {
+        "name": "Radoslav Zdravkovic",
+        "email": "zdravkovicradoslav@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "RadoTheme\\": "src/"
+      }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
