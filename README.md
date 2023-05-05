@@ -38,13 +38,6 @@ The first version of Rado's starter Wordpress theme based on [underscores] theme
       }
     }
     ```
-* K&R code style
-    ```js
-    while (x === y) {
-       something();
-       somethingElse();
-    }
-    ```
 * ESLint enforces several stylistic rules to help with error checking and keeping a consistent style. For example:
     >no-multiple-empty-lines: One empty line is allowed.
     
@@ -56,13 +49,6 @@ The first version of Rado's starter Wordpress theme based on [underscores] theme
     
     >comma-dangle: Dangling commas are allowed in object/array lists.   
 * Other ESLint rules can be found here: https://github.com/eslint/eslint/tree/master/docs/rules
-    
-## Required plugins
-* Advanced Custom Fields
-
-## Suggested plugins
-* Gravity forms
-* WPML (multilingual sites)
 
 ## Other
 * When using `target="_blank"` to open a link in a new tab, remember to always follow it up with `rel="noopener noreferrer"` for security (anti-phishing) reasons.
