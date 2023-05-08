@@ -24,7 +24,7 @@ use RadoTheme\ThemeSettings\TemplateTags;
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', '_s' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'rado' ),
 				'after'  => '</div>',
 			)
 		);
@@ -38,7 +38,7 @@ use RadoTheme\ThemeSettings\TemplateTags;
 				sprintf(
 					wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', '_s' ),
+						__( 'Edit <span class="screen-reader-text">%s</span>', 'rado' ),
 						array(
 							'span' => array(
 								'class' => array(),

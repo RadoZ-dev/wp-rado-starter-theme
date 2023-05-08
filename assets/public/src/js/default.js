@@ -1,5 +1,5 @@
-(() => {
-  window.addEventListener('DOMContentLoaded', event => {
+import bootstrap from "bootstrap";
 
-  });
-})(); 
+(() => {
+  window.addEventListener("DOMContentLoaded", (event) => {});
+})();
